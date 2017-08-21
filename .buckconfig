@@ -1,0 +1,11 @@
+[project]
+  ignore = .git
+
+[build]
+  engine = deep
+
+[repositories]
+  mathutils = external/mathutils
+
+[cxx]
+  cxxflags = -std=c++1z

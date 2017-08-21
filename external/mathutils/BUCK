@@ -1,0 +1,13 @@
+cxx_library(
+  name = 'mathutils',
+  header_namespace = 'mathutils',
+  exported_headers = [
+    'add.hpp',
+  ],
+  srcs = [
+    'add.cpp',
+  ],
+  visibility = [
+    'PUBLIC',
+  ],
+)
